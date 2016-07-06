@@ -116,7 +116,7 @@ You can tell the state machine to retry a job based on its result:
     end
 
 When `perform_with_result` returns the result `:pending`, the state
-machine will remain in the `runnning` state and enqueue a delayed
+machine will remain in the `running` state and enqueue a delayed
 job. This functionality requires the [`resque-scheduler`](https://github.com/resque/resque-scheduler)
 gem.
 
